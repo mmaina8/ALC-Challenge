@@ -1,4 +1,4 @@
-package com.example.alcandroidchallengegit;
+package com.example.alcandroidchallenge;
 
 import android.content.Intent;
 import android.os.Bundle;
