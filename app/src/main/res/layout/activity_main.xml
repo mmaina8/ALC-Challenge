@@ -11,61 +11,56 @@
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-
     </android.support.design.widget.AppBarLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Welcome to ALC 4.0"
+            android:layout_marginTop="100dp"
+            android:text="WELCOME TO ALC 4.0"
             android:textFontWeight="bold"
-            android:textSize="40dp"
-            android:layout_marginLeft="20dp"/>
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:layout_marginBottom="80dp"
+            android:fontFamily="serif"/>
 
         <Button
             android:id="@+id/btnAbout"
-            android:layout_width="wrap_content"
+            android:layout_width="134dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
-            android:layout_marginLeft="150dp"
-            android:background="@color/colorBack"
-            android:paddingRight="20dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="20dp"
             android:paddingLeft="20dp"
-            android:text="ABOUT ALC"/>
+            android:paddingRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@color/colorBack"
+            android:text="About ALC" />
 
         <Button
             android:id="@+id/btnProfile"
-            android:background="@color/colorBack"
-            android:layout_width="wrap_content"
+            android:layout_width="136dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="150dp"
-            android:paddingRight="20dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorBack"
             android:paddingLeft="20dp"
-            android:text="MY PROFILE"/>
-
-
+            android:paddingRight="20dp"
+            android:text="My Profile" />
     </LinearLayout>
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
 
-    <!--<android.support.design.widget.FloatingActionButton-->
-        <!--android:id="@+id/fab"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_gravity="bottom|end"-->
-        <!--android:layout_margin="@dimen/fab_margin"-->
-        <!--app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+
+
 
 </android.support.design.widget.CoordinatorLayout>
